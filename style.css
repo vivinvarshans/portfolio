@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;600;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    opacity: 0;
+    transition: opacity 3s;
+}
+
+.hero {
+    width: 100%;
+    height: 100vh;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 200px;
+    background-color: black;
+}
+
+.nav .link ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    list-style: none;
+}
+
+.nav .link ul a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    transition: all 2000ms ease-in-out;
+    padding: 8px 20px;
+    border-radius: 30px;
+    border: 1px solid rgb(255, 151, 71);
+    margin-right: 1rem;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+.nav .logo {
+    padding: 8px 30px;
+    color: white;
+    transition: all 2000ms ease-in-out;
+
+}
+
+ul a .active {
+    color: rgb(255, 151, 71);
+}
+
+.nav .link ul a:hover {
+    color: rgb(255, 151, 71);
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6rem;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.main .men {
+    width: 400px;
+    transition: all 2000ms ease;
+    cursor: pointer;
+}
+
+.main .men:hover{
+    transform: scale(1.3);
+}
+.nav .logo .men1 {
+    width: 100px;
+    transition: all 2000ms ease;
+    cursor: pointer;
+}
+.nav .logo .men1:hover{
+    transform: scale(1.3);
+}
+.sk {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 150px;
+    margin-right: 150px;
+    line-height: 20px;
+    padding: 20px 20px;
+    border-radius: 30px;
+    border: 1px solid rgb(255, 151, 71);
+    margin-bottom: 30px;
+    text-align: left;
+}
+.sk .men2 {
+    width: 50px;
+    transition: all 2000ms ease;
+    cursor: pointer;
+}
+.ed {
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 150px;
+    margin-right: 150px;
+    line-height: 20px;
+    text-align: center;
+    color: #2a2a2a;
+    padding: 20px 20px;
+    border-radius: 30px;
+    border: 1px solid rgb(255, 151, 71);
+    margin-bottom: 30px;
+    text-align: left;
+}
+.cn .men2 {
+    width: 50px;
+    transition: all 2000ms ease;
+    cursor: pointer;
+}
+.cn {
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 150px;
+    margin-right: 150px;
+    line-height: 30px;
+    text-align: center;
+    color: #2a2a2a;
+    padding: 20px 20px;
+    border-radius: 30px;
+    border: 1px solid rgb(255, 151, 71);
+    margin-bottom: 30px;
+    text-align: left;
+}
+.ed .men2 {
+    width: 50px;
+    transition: all 2000ms ease;
+    cursor: pointer;
+}
+.pr {
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 150px;
+    margin-right: 150px;
+    line-height: 40px;
+    text-align: center;
+    color: #2a2a2a;
+    padding: 20px 20px;
+    border-radius: 30px;
+    border: 1px solid rgb(255, 151, 71);
+    margin-bottom: 30px;
+    text-align: left;
+}
+.pr .men2 {
+    width: 500px;
+    transition: all 2000ms ease;
+    cursor: pointer;
+}
+h6 {
+    font-size: 23px;
+    color: rgb(255, 151, 71);
+    -webkit-text-stroke-width: 0.8px;
+    -webkit-text-stroke-color: black;
+}
+.main .men2:hover{
+    transform: scale(1.3);
+}
+.main .main-detil {
+    text-align: center;
+    color: #2a2a2a;
+}
+
+.main .main-detil h1 {
+    font-size: 50px;
+
+}
+
+.main .main-detil h4 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.main .main-detil .det {
+    align-items: center;
+    justify-content: center;
+    line-height: 20px;
+    padding: 20px 20px;
+    border-radius: 30px;
+    border: 1px solid rgb(255, 151, 71);
+    margin-right: 1rem;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.main .btn button {
+    padding: 8px 20px;
+    background: transparent;
+    border-radius: 30px;
+    border: 1px solid #2a2a2a;
+    margin-right: 1rem;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+.main .btn .btn-2 {
+    padding: 8px 30px;
+    background: #2a2a2a;
+    color: #fff;
+    border: none;
+    outline: none;
+    transition: all 2000ms ease-in-out;
+
+}
+
+.main .btn .btn-2:hover {
+    background: rgb(255, 151, 71);
+    transform: scale(1.1);
+}
+.ab{
+
+    background-color: #101010;
+    text-align: center;
+    color: #fff;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 200px;
+    text-align: justify;
+    text-justify: inter-word;
+}
