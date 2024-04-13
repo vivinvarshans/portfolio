@@ -20,7 +20,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 40px 200px;
+    padding: 40px 5%;
     background-color: black;
 }
 
@@ -46,7 +46,7 @@ body {
 }
 
 .nav .logo {
-    padding: 8px 30px;
+    padding: 8px 5%;
     color: white;
     transition: all 2000ms ease-in-out;
 
@@ -62,15 +62,17 @@ ul a .active {
 
 .main {
     display: flex;
+    flex-direction: column; 
     align-items: center;
-    justify-content: center;
-    gap: 6rem;
+    gap: 3rem;
     margin-top: 70px;
     margin-bottom: 70px;
+    padding: 0 5%;
 }
 
 .main .men {
-    width: 400px;
+    width: 100%; 
+    max-width: 400px;
     transition: all 2000ms ease;
     cursor: pointer;
 }
@@ -188,14 +190,14 @@ h6 {
 }
 
 .main .main-detil h1 {
-    font-size: 50px;
-
+    font-size: 2.5rem; 
 }
 
 .main .main-detil h4 {
-    font-size: 30px;
+    font-size: 1.5rem;
     margin-bottom: 20px;
 }
+
 .main .main-detil .det {
     align-items: center;
     justify-content: center;
@@ -232,14 +234,29 @@ h6 {
     background: rgb(255, 151, 71);
     transform: scale(1.1);
 }
-.ab{
-
+.ab {
     background-color: #101010;
     text-align: center;
     color: #fff;
-    justify-content: space-between;
-    align-items: center;
-    padding: 40px 200px;
+    padding: 40px 5%; 
     text-align: justify;
     text-justify: inter-word;
+}
+
+@media screen and (min-width: 768px) {
+    .nav {
+        padding: 40px 10%; 
+    }
+
+    .main {
+        flex-direction: row;
+    }
+
+    .main .men {
+        width: auto; 
+    }
+
+    .main .main-detil {
+        text-align: left;
+    }
 }
